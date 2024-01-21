@@ -112,6 +112,10 @@ html {
     align-items: center;
     border-radius: 100%;
 }
+.Txt{
+    display: none;
+    visibility: hidden;
+}
 /* partie du responsive */
 
  @media  screen and (max-width: 394px){
@@ -226,9 +230,13 @@ html {
             margin-top: 0.7rem;
         }
         .Txt{
+            display: block;
+            visibility: visible;
             display: flex;
             justify-content: center;
             margin-bottom: 6rem;
+         
+          
         }
         .Txt> h2 {
             font-size: 2rem;
