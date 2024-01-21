@@ -54,6 +54,11 @@ html {
     flex-direction: column;
     justify-content: space-between;
 }
+.sign-page> div>h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+  
+}
 .sign-page> div > label {
 
     font-size: 1.5rem;
