@@ -123,7 +123,7 @@ html {
 }
 /* partie du responsive */
 
- @media  screen and (max-width: 430px){
+ @media  screen and (max-width: 400px){
           .enfant1 {
            
             display: none;
@@ -152,23 +152,23 @@ html {
             justify-content: center;
         }
         .sign-page> div>h1{
-            font-size: 2.7rem;
+            font-size: 280%;
             color: var(--ternary-color);
             font-weight: bold;
-            margin-top: 7rem;
+            margin-top: 10%;
             margin-bottom: 4rem;
         }
         .sign-page> div > label {
         
-            font-size: 2rem;
+            font-size: 190%;
             color: var(--ternary-color);
             font-weight: bold;
         
         }
         .sign-page> div > input {
             border-radius: 1rem;
-            padding: 2rem;
-            width: 87%;
+            padding: 5%;
+            width: 89%;
             font-size: 1.5rem;
             border: solid 0.2rem gray;
             margin-bottom: 4rem;
