@@ -123,10 +123,11 @@ html {
 }
 /* partie du responsive */
 
- @media  screen and (max-width: 394px){
+ @media  screen and (max-width: 430px){
           .enfant1 {
+           
             display: none;
-            visibility: hidden;
+            
           }
           .enfant2 {
             display: flex;
