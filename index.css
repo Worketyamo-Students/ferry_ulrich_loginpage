@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+:root {
+    --primary-color : #7286D3;
+    --second-color:  #8EA7E9;
+    --ternary-color: #E5E0FF;
+    --bg-color: #FFF2F2;
+    --b-color: #fff2f259;
+}
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: Poppins ;
+}
+html {
+    font-size: 10px;
+}
+.parent{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+}
+.enfant1 {
+
+    flex: 1;
+    display: flex;
+    background-size: cover;
+    background-image: url('items/images/daniel-korpai-8GDCzWrcE3M-unsplash\ 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: end;
+
+}
+.enfant1 > h1 {
+    color: var(--bg-color);
+    font-size: 5rem;
+}
+.enfant2 {
+    display: flex;
+    flex: 1;
+    background-color:white;
+    justify-content: center;
+    align-items: center;
+}
+.sign-page {
+
+    height: 90%;
+    width: 60%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sign-page> div > label {
+
+    font-size: 1.5rem;
+
+}
+.sign-page> div > input {
+    border-radius: 1rem;
+    padding: 1.5rem;
+    width: 100%;
+    font-size: 1.5rem;
+    border: solid 0.2rem gray;
+    margin-top: 0.8rem;
+}
+.link {
+    display: flex;
+    justify-content: end;
+}
+.link>a{
+    font-size: 1.2rem;
+}
+.buttom {
+    display: flex;
+    justify-content: center;
+}
+.buttom > button {
+    border-radius: 1rem;
+    width: 50%;
+    padding: 1.5rem;
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    font-size: 1.5rem;
+}
+.ou-avec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.ou-avec > hr{
+    width: 15rem;
+    height: 0.2rem;
+    background-color: gray;
+}
+.link-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.link-2 > div {
+    background-color: var(--bg-color);
+    height: 7rem;
+    width: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+/* partie du responsive */
+
+ @media  screen and (max-width: 394px){
+          .enfant1 {
+            display: none;
+            visibility: hidden;
+          }
+          .enfant2 {
+            display: flex;
+            flex: 1;
+            background-color:white;
+            justify-content: center;
+            align-items: center;
+        }
+        .sign-page {
+        
+            height: 100%;
+            width: 100%;
+            background-image: linear-gradient(to bottom , #20202094, #00000056), url(items/images/daniel-korpai-8GDCzWrcE3M-unsplash\ 1.png);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+        .con{
+            display: flex;
+            justify-content: center;
+        }
+        .sign-page> div>h1{
+            font-size: 2.7rem;
+            color: var(--ternary-color);
+            font-weight: bold;
+            margin-top: 7rem;
+            margin-bottom: 4rem;
+        }
+        .sign-page> div > label {
+        
+            font-size: 2rem;
+            color: var(--ternary-color);
+            font-weight: bold;
+        
+        }
+        .sign-page> div > input {
+            border-radius: 1rem;
+            padding: 2rem;
+            width: 87%;
+            font-size: 1.5rem;
+            border: solid 0.2rem gray;
+            margin-bottom: 4rem;
+        }
+        .link {
+            display: flex;
+            justify-content: end;
+        }
+        .link>a{
+            font-size: 1.7rem;
+            color: var(--ternary-color);
+            font-weight: bold;
+            margin-top: -3rem;
+            margin-bottom: 4rem;
+        }
+        .buttom {
+            display: flex;
+            justify-content: center;
+        }
+        .buttom > button {
+            border-radius: 1rem;
+            width: 50%;
+            padding: 1.5rem;
+            background-color: var(--primary-color);
+            color: var(--bg-color);
+            font-size: 1.5rem;
+            margin-bottom: 4rem;
+            
+        }
+        .ou-avec{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2.7rem;
+        }
+        .ou-avec > hr{
+            width: 10rem;
+            height: 0.2rem;
+            background-color: rgb(255, 255, 255);
+        }
+        .ou-avec> p{
+            font-size: 2rem;
+            color: var(--ternary-color);
+            font-weight: bold;
+        }
+        .link-2{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 2rem;
+        }
+        .link-2 > div {
+            background-color: var(--b-color);
+            height: 6rem;
+            width: 6rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100%;
+        }
+        .link-2 > div>a>img{
+            width: 2.7rem;
+            height: 2.7rem;
+            margin-top: 0.7rem;
+        }
+        .Txt{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 6rem;
+        }
+        .Txt> h2 {
+            font-size: 2rem;
+            color: var(--ternary-color);
+           
+        } 
+ }
