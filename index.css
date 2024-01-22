@@ -124,6 +124,13 @@ html {
 /* partie du responsive */
 
  @media  screen and (max-width: 400px){
+    .parent{
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        overflow: scroll;
+      
+      }
           .enfant1 {
            
             display: none;
@@ -240,7 +247,7 @@ html {
             visibility: visible;
             display: flex;
             justify-content: center;
-            margin-bottom: 6rem;
+            margin-bottom: 10%;
          
           
         }
