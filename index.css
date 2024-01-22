@@ -142,6 +142,7 @@ html {
             flex: 1;
             justify-content: center;
             align-items: center;
+            height: 100vh;
            
         }
         .sign-page {
@@ -164,7 +165,7 @@ html {
             color: var(--ternary-color);
             font-weight: bold;
             margin-top: 10%;
-            margin-bottom: 4rem;
+            margin-bottom: 6%;
         }
         .sign-page> div > label {
         
@@ -179,7 +180,7 @@ html {
             width: 89%;
             font-size: 1.5rem;
             border: solid 0.2rem gray;
-            margin-bottom: 4rem;
+            margin-bottom: 6%;
         }
         .link {
             display: flex;
@@ -190,7 +191,7 @@ html {
             color: var(--ternary-color);
             font-weight: bold;
             margin-top: -3rem;
-            margin-bottom: 4rem;
+            margin-bottom: 6%;
         }
         .buttom {
             display: flex;
@@ -203,7 +204,7 @@ html {
             background-color: var(--primary-color);
             color: var(--bg-color);
             font-size: 1.5rem;
-            margin-bottom: 4rem;
+            margin-bottom: 6%;
             
         }
         .ou-avec{
